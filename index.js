@@ -11,7 +11,7 @@ const userRouter = require("./users/user.router");
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Holaa, esto es una prueba!!");
+  res.send("Holaa, esto es una prueba!!!");
 });
 
 app.get("/api/", (req, res) => {
